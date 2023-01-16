@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include </usr/include/pstreams/pstream.h>
+#include <pstream.h>
 #include <linux/version.h>
 #include <sys/utsname.h>
 #include <iostream>
-// Cross Build is shit, that why pstreams path is full //
 
 /*
  Checking Linux Kernel information
