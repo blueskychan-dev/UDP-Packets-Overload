@@ -56,7 +56,7 @@ int main() {
     cout << "WARNING: THIS ATTACKING IS MADE BY YOU! PLEASE DO THIS WITH YOUR OWN RISK!\nIF YOU NEED CANCEL THIS PLEASE PRESS CTRL+C FOR CLOSE THIS PROGRAM.\n";
     cout << "Threads: ";
     cin >> threads;
-    cout << "KB (Recommends: 512): ";
+    cout << "KB (Recommended: 512): ";
     cin >> kb;
     cin >> kb;
     cout << "Press Enter to Continue";
