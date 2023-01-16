@@ -9,7 +9,7 @@ This program will send too many packet to server.
 This Program is for experiment or down own device I DIDN'T MAKE IT FOR ATTACK GAME SERVER!
 # How to install
 * For Linux and Android (Termux)
-* INSTALL WITH WGET (x86_64, AARCH64 ONLY)
+* INSTALL WITH WGET (x86_64, AARCH64, ARMv7l ONLY)
 ```
 wget https://github.com/RandomLadyBoyGuy/UDP-Packets-Overload/releases/download/1.0.0/udpflood-$(uname -m)
 chmod +x udpflood-$(uname -m)
@@ -20,6 +20,7 @@ Use WSL 1 or 2 (You can use linux install script)
 * For Windows 8.1 and older
 You can use virtual machine to run this like vmware, virtualbox and install linux on it!
 # How to building (for custom build, other arch)
+Also Build with your own is recommended for performance.
 * requirements: ```glibc clang pstreams```
 * for cross build, please install build toolchin for aarch64 too.
 * Build with makefile
