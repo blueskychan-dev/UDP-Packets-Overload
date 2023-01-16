@@ -19,8 +19,8 @@ chmod +x udpflood-$(uname -m)
 Use WSL 1 or 2 (You can use linux install script)
 * For Windows 8.1 and older
 You can use virtual machine to run this like vmware, virtualbox and install linux on it!
-# How to building (for custom build, other arch)
-Also Build with your own is recommended for performance.
+# How to building (for custom build, other arch, other platform)
+**Due** to we cannot prebuild for **all platform** or make prebuild **stable** and **support** for all device, we recommended **YOU** build with **YOURSELF!**
 * requirements: ```glibc clang pstreams```
 * for cross build, please install build toolchin for aarch64 too.
 * Build with makefile
@@ -31,4 +31,7 @@ make cross
 make ownarch
 // clean build
 make clean
+// run program after build
+make run
 ```
+**NOTICE:** After Building your file will been located at `./out` and file format will be like `udpflood-(cpuarch)-(platform)` example: `udpflood-x86_64-GNU_Linux` or `udpflood-aarch64-Android`  
