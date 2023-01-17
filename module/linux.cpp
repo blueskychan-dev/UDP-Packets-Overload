@@ -3,16 +3,16 @@
 #include <linux/version.h>
 #include <sys/utsname.h>
 #include <iostream>
-// Cross Build is shit, that why pstreams path is full //
+/* For pstream.h please copy pstream.h from internet or build to /usr/include */
 
+class linux_kernel{
+  public:
+  void kernelversion(){
 /*
  Checking Linux Kernel information
  Thanks code from ryanwoodsmall
  Modify by: randomladyboyguy (me)
  */
-class linux_kernel{
-  public:
-  void kernelversion(){
  int maj = LINUX_VERSION_CODE >> 16;
   int min = ( LINUX_VERSION_CODE - ( maj << 16 ) ) >> 8;
   int pat = LINUX_VERSION_CODE - ( maj << 16 ) - ( min << 8 );
