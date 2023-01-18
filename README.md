@@ -11,9 +11,9 @@ This Program is for experiment or down own device I DIDN'T MAKE IT FOR ATTACK GA
 * For Linux and Android (Termux)
 * INSTALL WITH WGET (x86_64, AARCH64, ARMv7l ONLY)
 ```
-wget https://github.com/RandomLadyBoyGuy/UDP-Packets-Overload/releases/download/1.0.1/udpflood-$(uname -m)-$(uname -o | tr / _ )
-chmod +x udpflood-$(uname -m)
-./udpflood-$(uname -m)
+wget https://github.com/RandomLadyBoyGuy/UDP-Packets-Overload/releases/download/1.0.1/udpflood-$(uname -m)-$(uname -o | tr / _ ) 
+chmod +x udpflood-$(uname -m)-$(uname -o | tr / _ ) 
+./udpflood-$(uname -m)-$(uname -o | tr / _ ) 
 ```
 * For Windows 10
 Use WSL 1 or 2 (You can use linux install script)
